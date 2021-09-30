@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldCat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img id="logo" src="assets/img/logo.svg" alt="logo" width="150px ">
+            </a>
+    
+            <ul class="nav col col-lg-8 me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-white">Главная</a></li>
+              <li><a href="albom.html" class="nav-link px-2 text-white">Альбом</a></li>
+              <li><a href="About.html" class="nav-link px-2 text-white">О нас</a></li>
+              <li><a href="contact.html" class="nav-link px-2 text-secondary">Контакты</a></li>
+              
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </header>
+
+     <!--- cantact--- -->
+
+      <div class="container">
+
+        <h3 class="text-center">Contact us</h3><br />
+        
+        <div class="row">
+          <div class="col-md-8">
+              <form action="/post" method="post">
+                <input class="form-control" name="name" placeholder="Name..." /><br />
+                <input class="form-control" name="phone" placeholder="Phone..." /><br />
+                <input class="form-control" name="email" placeholder="E-mail..." /><br />
+                <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+                <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+              </form>
+          </div>
+          <div class="col-md-4">
+            <b>Customer service:</b> <br />
+            Phone: +1 129 209 291<br />
+            E-mail: <a href="mailto:support@mysite.com">support@mysite.com</a><br />
+            <br /><br />
+            <b>Headquarter:</b><br />
+            Company Inc, <br />
+            Las vegas street 201<br />
+            55001 Nevada, USA<br />
+            Phone: +1 145 000 101<br />
+            <a href="mailto:usa@mysite.com">usa@mysite.com</a><br />
+        
+        
+            
+        
+        
+          </div>
+        </div>
+        
+        </div>
+        
+
+      
+      <!-- --- Footer --- -->
+      <button id="top"><img src="assets/img/scroll.png" alt=""></button>
+      <div class="bg-dark text-secondary px-4 py-1 text-center ">
+        
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+      
+          <a href="/" class="col-md-4 col-lg-3 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none ">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <img src="assets/img/logo.svg" alt="logo" width="150px" >
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Главная</a></li>
+            <li class="nav-item"><a href="albom.html" class="nav-link px-2 text-muted">Альбом</a></li>
+            <li class="nav-item"><a href="About.html" class="nav-link px-2 text-muted">О нас</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Контакты</a></li>
+          </ul>
+        </footer>
+      </div>
+      <script src="assets/script/scrolling.js"></script>
+</body>
+</html>
